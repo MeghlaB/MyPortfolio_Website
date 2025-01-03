@@ -7,7 +7,7 @@ import { FiMail } from 'react-icons/fi';
 export default function AboutMe() {
     return (
         <section className="py-16 pb-6 bg-gray-100">
-            <div className="container mx-auto px-6 mt-4 bg-[#FAF6F3]">
+            <div className="container mx-auto px-6 mt-4 bg-[#FAF6F3] max-w-full">
                 {/* Section Header */}
                 <h2 className="text-4xl font-bold text-center text-[#1C1C1C] mb-8">
                     About Me
@@ -16,7 +16,7 @@ export default function AboutMe() {
 
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
                     {/* Left Column: Text Content */}
-                    <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
+                    <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0 px-4">
                         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                             Hi, I'm <strong>Meghla Biswas</strong>, a passionate <strong>Frontend Developer</strong> from Bangladesh. With a deep interest in technology, I began my programming journey during college with HTML and CSS, later discovering my love for <strong>React</strong> which has shaped my career path.
                         </p>
@@ -54,33 +54,26 @@ export default function AboutMe() {
                 </div>
 
                 {/* Additional Interests Section */}
+                <div className="flex flex-col lg:flex-row justify-center items-center gap-16 mt-16">
+                    <div className="text-center p-8 border rounded-lg shadow-lg w-80 hover:shadow-xl transition-all duration-300">
+                        <FaCode className="text-4xl text-btnprimary" />
+                        <h4 className="text-xl mt-4 font-semibold text-[#1C1C1C]">Programming</h4>
+                        <p className="text-gray-600 mt-4">I enjoy solving complex problems, writing clean code, and bringing innovative ideas to life through technology. Coding is both a challenge and a passion.</p>
+                    </div>
 
-                <div className="mt-16">
-                    <h3 className="text-2xl font-semibold text-center text-[#1C1C1C] mb-8">My Interests
-                    <div className=" mt-2 w-32 mx-auto border-t-4 border-hoverprimary"></div>
-                    </h3>
-              
-                    <div className="flex justify-center gap-16">
-                        <div className="text-center">
-                            <FaCode className="text-4xl text-btnprimary" />
-                            <h4 className="text-xl mt-2 font-semibold text-[#1C1C1C]">Programming</h4>
-                            <p className="text-gray-600 mt-12">I enjoy solving complex problems, writing clean code, and bringing innovative ideas to life through technology. Coding is both a challenge and a passion.</p>
-                        </div>
-                        <div className="text-center">
-                            <div className='text-center'><FaPaintBrush className="text-4xl text-btnprimary" /></div>
-                            <h4 className="text-xl mt-2 font-semibold text-[#1C1C1C]">Design & Creativity</h4>
-                            <p className="text-gray-600 mt-12">Exploring digital art and design allows me to express my creativity. I enjoy blending art with technology to create visually appealing experiences.</p>
-                        </div>
+                    <div className="text-center p-8 border rounded-lg shadow-lg w-80 hover:shadow-xl transition-all duration-300">
+                        <FaPaintBrush className="text-4xl text-btnprimary" />
+                        <h4 className="text-xl mt-4 font-semibold text-[#1C1C1C]">Design & Creativity</h4>
+                        <p className="text-gray-600 mt-4">Exploring digital art and design allows me to express my creativity. I enjoy blending art with technology to create visually appealing experiences.</p>
                     </div>
                 </div>
 
                 {/* Future Plans Section */}
                 <div className="mt-16">
                     <h3 className="text-2xl font-semibold text-center text-[#1C1C1C] mb-8">Future Plans
-
-                    <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
+                        <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
                     </h3>
-                    
+
                     <p className="text-lg text-gray-600 text-center">
                         I am eager to expand my expertise by exploring Full Stack Development and contributing to open-source projects. My ultimate goal is to build applications that not only serve a purpose but also connect people and make a positive impact on society.
                     </p>
