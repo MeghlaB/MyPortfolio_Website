@@ -1,13 +1,13 @@
 import React from "react";
 import myImage from "../../src/assets/image.png";
-import { FaLinkedin, FaInstagram, FaDribbble, FaBehance, FaGoogle, FaFacebook, FaGithub, FaMailBulk, FaArrowDown } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaDribbble, FaBehance, FaGoogle, FaFacebook, FaGithub, FaMailBulk, FaArrowDown, FaDownload } from "react-icons/fa";
 import { Fade } from "react-awesome-reveal";
 import { Typewriter } from "react-simple-typewriter";
 import { FiMail } from "react-icons/fi";
 
 export default function Banner() {
     return (
-        <div className="bg-[#FAF6F3] h-[650px] flex items-center justify-center mt-40 lg:mt-0"> 
+        <div className="bg-[#FAF6F3] h-[650px] flex items-center justify-center mt-40 lg:mt-0">
             <div className="container mx-auto flex flex-col lg:flex-row items-center px-6">
                 {/* Left Section */}
                 <div className="lg:w-1/2 text-center lg:text-left ">
@@ -33,7 +33,7 @@ export default function Banner() {
                     {/* Social Icons */}
                     <div className="flex gap-6 mt-6 lg:mt-4 justify-center lg:justify-start">
                         <a href="https://mail.google.com/mail/u/3/#inbox" className="text-2xl text-[#333333] hover:text-hoverprimary">
-                        <FiMail />
+                            <FiMail />
                         </a>
                         <a href="https://www.facebook.com/onu.biswas.166205" className="text-2xl text-[#333333] hover:text-hoverprimary">
                             <FaFacebook />
@@ -44,10 +44,13 @@ export default function Banner() {
                     </div>
                     {/* Button */}
                     <div className="mt-6 flex justify-center lg:justify-start">
-                        <button className="px-6 py-3 flex
-                         items-center gap-4 bg-btnprimary text-white rounded-lg shadow-md hover:bg-hoverprimary">
-                           DownLoad <FaArrowDown  className=" animate-bounce"/>
-                        </button>
+                        <a
+                            href="/assets/resume.pdf"
+                            className="px-6 py-3 flex items-center gap-4 bg-btnprimary text-white rounded-lg shadow-md hover:bg-hoverprimary"
+                        >
+                            <FaDownload />
+                            Download Resume
+                        </a>
                     </div>
                 </div>
                 {/* Right Section */}
