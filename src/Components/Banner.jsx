@@ -1,41 +1,64 @@
-import React from 'react'
+import React from "react";
+import myImage from "../../src/assets/image.png";
+import { FaLinkedin, FaInstagram, FaDribbble, FaBehance, FaGoogle, FaFacebook, FaGithub, FaMailBulk, FaArrowDown } from "react-icons/fa";
+import { Fade } from "react-awesome-reveal";
+import { Typewriter } from "react-simple-typewriter";
+import { FiMail } from "react-icons/fi";
 
 export default function Banner() {
     return (
-        <div className='bg-[#F8F5F4]'>
-            <div className="hero h-[550px]">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className="text-center lg:text-left">
-                        <h1 className="text-5xl font-bold">Login now!</h1>
-                        <p className="py-6">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
-                        </p>
+        <div className="bg-[#FAF6F3] h-[650px] flex items-center justify-center mt-40 lg:mt-0"> 
+            <div className="container mx-auto flex flex-col lg:flex-row items-center px-6">
+                {/* Left Section */}
+                <div className="lg:w-1/2 text-center lg:text-left ">
+                    {/* Heading */}
+                    <h1 className="text-xl md:text-2xl lg:text-5xl font-bold text-[#1C1C1C]">
+                        I'm <span className="text-hoverprimary">Frontend </span>
+                        <span className="text-btnprimary">
+                            <Typewriter
+                                words={['Developer']}
+                                loop={Infinity}
+                                cursor=''
+                                typeSpeed={100}
+                                delaySpeed={1000}
+                            />
+                        </span>
+                    </h1>
+
+                    {/* Subtext */}
+                    <p className="text-lg text-gray-600 mt-4 max-w-md mx-auto lg:mx-0">
+                        Hi, I'm Meghla Biswas, a Frontend Developer. I design responsive, visually appealing, and user-friendly websites to bring your ideas to life.
+                    </p>
+
+                    {/* Social Icons */}
+                    <div className="flex gap-6 mt-6 lg:mt-4 justify-center lg:justify-start">
+                        <a href="https://mail.google.com/mail/u/3/#inbox" className="text-2xl text-[#333333] hover:text-hoverprimary">
+                        <FiMail />
+                        </a>
+                        <a href="https://www.facebook.com/onu.biswas.166205" className="text-2xl text-[#333333] hover:text-hoverprimary">
+                            <FaFacebook />
+                        </a>
+                        <a href="https://github.com/MeghlaB" className="text-2xl text-[#333333] hover:text-hoverprimary">
+                            <FaGithub />
+                        </a>
                     </div>
-                    <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-                        <form className="card-body">
-                            <div className="form-control">
-                                <label className="label">
-                                    <span className="label-text">Email</span>
-                                </label>
-                                <input type="email" placeholder="email" className="input input-bordered" required />
-                            </div>
-                            <div className="form-control">
-                                <label className="label">
-                                    <span className="label-text">Password</span>
-                                </label>
-                                <input type="password" placeholder="password" className="input input-bordered" required />
-                                <label className="label">
-                                    <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-                                </label>
-                            </div>
-                            <div className="form-control mt-6">
-                                <button className="btn btn-primary">Login</button>
-                            </div>
-                        </form>
+                    {/* Button */}
+                    <div className="mt-6 flex justify-center lg:justify-start">
+                        <button className="px-6 py-3 flex
+                         items-center gap-4 bg-btnprimary text-white rounded-lg shadow-md hover:bg-hoverprimary">
+                           DownLoad <FaArrowDown  className=" animate-bounce"/>
+                        </button>
                     </div>
+                </div>
+                {/* Right Section */}
+                <div className="lg:w-1/2 flex justify-center mt-8 lg:mt-0">
+                    <img
+                        src={myImage}
+                        alt="Developer"
+                        className="w-[300px] h-auto lg:w-[400px] rounded-md"
+                    />
                 </div>
             </div>
         </div>
-    )
+    );
 }
