@@ -6,8 +6,8 @@ import { FiMail } from 'react-icons/fi';
 
 export default function AboutMe() {
     return (
-        <section className="py-16 pb-6 bg-gray-100">
-            <div className="container mx-auto px-6 mt-4 bg-[#FAF6F3] max-w-full">
+        <section className="py-16 pb-6">
+            <div className="container mx-auto px-6 mt-4 max-w-full">
                 {/* Section Header */}
                 <h2 className="text-4xl font-bold text-center text-[#1C1C1C] mb-8">
                     About Me
@@ -17,7 +17,7 @@ export default function AboutMe() {
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
                     {/* Left Column: Text Content */}
                     <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0 px-4">
-                        <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                        <p className="text-lg text-white mb-6 leading-relaxed">
                             Hi, I'm <strong>Meghla Biswas</strong>, a passionate <strong>Frontend Developer</strong> from Bangladesh. With a deep interest in technology, I began my programming journey during college with HTML and CSS, later discovering my love for <strong>React</strong> which has shaped my career path.
                         </p>
 

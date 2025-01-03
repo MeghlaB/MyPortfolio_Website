@@ -11,9 +11,9 @@ export default {
       },
       keyframes: {
         'gradient-border': {
-          '0%': { borderColor: 'rgba(99, 102, 241, 1)' },  
-          '50%': { borderColor: 'rgba(99, 102, 241, 0.75)' }, 
-          '100%': { borderColor: 'rgba(99, 102, 241, 0.5)' },
+          '0%':{borderColor:'#1E1E36'},
+          '50%': { borderColor: '#1F1F38' }, 
+          '100%': { borderColor: '#7731D8' },
         },
        
       },
