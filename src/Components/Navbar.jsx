@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-
+import logo from '../assets/icons/logo1.png'
 
 export default function Navbar() {
   
@@ -37,7 +37,7 @@ export default function Navbar() {
                             {navLinks}
                         </ul>
                     </div>
-                    <a className=" font-fontfamily text-xl">MEghla</a>
+                    <img src={logo} alt=""  className='w-12 h-12 rounded-lg'/>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-4">

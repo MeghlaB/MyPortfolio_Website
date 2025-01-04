@@ -1,6 +1,6 @@
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-
+import logo from '../assets/icons/logo1.png'
 export default function Footer() {
     return (
         <footer className="flex flex-col bg-[#1F1F38] text-white py-8">
@@ -8,7 +8,7 @@ export default function Footer() {
                 {/* Footer Branding */}
                 <div className="text-center md:text-left">
                     <h5 className="text-2xl font-bold">
-                        <span className="text-hoverprimary">Meghla Biswas</span>
+                       <img src={logo} alt="" className="w-24 h-24 rounded-lg" />
                     </h5>
                     <h5 className="text-lg font-semibold mt-2">
                         <span className="text-hoverprimary">Contact Us:</span> meghlabiswas6432gmail.com
