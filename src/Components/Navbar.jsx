@@ -46,7 +46,7 @@ export default function Navbar() {
                 </div>
                 <div className="navbar-end">
                    
-                    <Link to={'/contact'} className="btn bg-btnprimary hover:bg-hoverprimary text-white/75">Contact Us </Link>
+                    <Link to={'/contact'} className="btn border-none outline-none bg-hoverprimary hover:bg-hoverprimary text-white/75">Contact Us </Link>
                 </div>
             </div>
         </div>

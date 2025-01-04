@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import { FiMail } from 'react-icons/fi';
 import { FaFacebook, FaWhatsapp } from 'react-icons/fa';
+import Swal from 'sweetalert2';
 
 export default function ContactUs() {
 
@@ -14,7 +15,14 @@ export default function ContactUs() {
             .sendForm('service_q4mz69g', 'template_motnhd9', form.current, 'hDzqQtESw86Hp0onJ')
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    Swal.fire({
+                        position: "top-center",
+                        icon: "success",
+                        title: "Send Message",
+                        showConfirmButton: false,
+                        timer: 1000
+                      });
+
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
@@ -68,8 +76,6 @@ export default function ContactUs() {
                 {/* contact us */}
                 <div className="w-full max-w-md rounded-lg border px-10 pb-10 pt-8 shadow-md ">
                     <div className="mb-6">
-
-                        <p className="text-center text-sm text-zinc-500 dark:text-zinc-400">We&apos;d love to hear from you!</p>
                     </div>
                     <form ref={form} onSubmit={sendEmail} className="w-full space-y-6">
                         <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-400">
@@ -107,7 +113,7 @@ export default function ContactUs() {
                                 name="message"
                             />
                         </div>
-                        <button className="rounded-md bg-sky-500 px-4 py-2 text-white transition-colors hover:bg-sky-600 dark:bg-sky-700">Submit</button>
+                        <button className="rounded-md bg-hoverprimary px-4 py-2 text-white transition-colors">Submit</button>
                     </form>
                 </div>
             </div>

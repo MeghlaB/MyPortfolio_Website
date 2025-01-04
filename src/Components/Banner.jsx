@@ -12,7 +12,7 @@ export default function Banner() {
                 {/* Left Section */}
                 <div className="lg:w-1/2 text-center lg:text-left ">
                     {/* Heading */}
-                    <h1 className="text-xl md:text-2xl lg:text-5xl font-bold text-[#1C1C1C]">
+                    <h1 className="text-xl md:text-2xl lg:text-5xl font-bold text-white/50">
                         I'm <span className="text-hoverprimary">Frontend </span>
                         <span className="text-btnprimary">
                             <Typewriter
