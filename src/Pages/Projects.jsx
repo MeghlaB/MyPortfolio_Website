@@ -19,15 +19,15 @@ export default function Projects() {
 
         <div className="grid grid-cols-1 h-full  px-3 md:px-2 lg:px-0 sm:grid-cols-2 md:grid-cols-3 gap-12 mt-8">
           {/* projects-1 */}
-          <div className="card border w-96 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project1}
                 alt="BPL Dream Project"
-                className="rounded-xl object-cover"
+                className="rounded-xl object-cover w-80"
               />
             </figure>
-            <div className='flex gap-3 m-5'>
+            <div className='flex gap-3 m-5 flex-wrap'>
               <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
                html
               </div>
@@ -68,15 +68,15 @@ export default function Projects() {
             </div>
           </div>
           {/* projects-2 */}
-          <div className="card border w-96 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project2}
                 alt="BPL Dream Project"
-                className="rounded-xl object-cover"
+                className="rounded-xl object-cover w-80"
               />
             </figure>
-            <div className='flex gap-3 m-5'>
+            <div className='flex gap-3 m-5 flex-wrap'>
               <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
                html
               </div>
@@ -117,15 +117,15 @@ export default function Projects() {
             </div>
           </div>
           {/* projects-3 */}
-          <div className="card border w-96 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project3}
                 alt="BPL Dream Project"
-                className="rounded-xl object-cover"
+                className="rounded-xl object-cover w-80"
               />
             </figure>
-            <div className='flex gap-3 m-5'>
+            <div className='flex gap-3 m-5 flex-wrap'>
               <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
                html
               </div>
@@ -162,12 +162,12 @@ export default function Projects() {
             </div>
           </div>
           {/* projects-4 */}
-          <div className="card border w-96 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project6}
                 alt="BPL Dream Project"
-                className="rounded-xl object-cover"
+                className="rounded-xl object-cover w-80"
               />
             </figure>
             <div className='flex gap-3 m-5'>
@@ -206,15 +206,15 @@ export default function Projects() {
             </div>
           </div>
           {/* projects-4 */}
-          <div className="card border w-96 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project4}
                 alt="BPL Dream Project"
-                className="rounded-xl object-cover"
+                className="rounded-xl object-cover w-80"
               />
             </figure>
-            <div className='flex gap-3 m-5'>
+            <div className='flex gap-3 m-5 flex-wrap'>
               <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
                html
               </div>
@@ -250,32 +250,37 @@ export default function Projects() {
             </div>
           </div>
           {/* projects-5 */}
-          <div className="card border w-96 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project5}
                 alt="BPL Dream Project"
-                className="rounded-xl object-cover"
+                className="rounded-xl object-cover w-80"
               />
             </figure>
-            <div className='flex gap-3 m-5'>
+            <div className='flex gap-3 m-5 flex-wrap'>
               <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
                html
               </div>
               <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-                Css
+                tailwindcss
               </div>
-             
+              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
+               react
+              </div>
+              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
+                daisyUi
+              </div>
             </div>
             <div className="card-body text-center">
 
-              <h2 className="card-title text-xl font-bold text-white">Landing Page With Devloper</h2>
+              <h2 className="card-title text-xl font-bold text-white">Landing Page Design</h2>
               <p className="text-white/75 mb-4">
-              This  landing page is not reresponsive for mobile devices and any other devices, like laptop or tablet. reresponsiveness add will very soon.
+              This Portfolio landing page is not reresponsive for mobile devices and any other devices, like laptop or tablet. reresponsiveness add will very soon.
               </p>
               <div className="card-actions flex justify-center gap-4">
                 <a
-                  href="https://github.com/MeghlaB/Assingment_01"
+                  href=""
                   className="text-xl btn flex items-center gap-2 text-gray-800 hover:text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -283,7 +288,7 @@ export default function Projects() {
                   <FaGithub /> GitHub
                 </a>
                 <a
-                  href="https://meghlab.github.io/Assingment_01/"
+                  href="https://vengeful-lawyer.surge.sh/"
                   className="text-xl btn flex items-center gap-2 text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
