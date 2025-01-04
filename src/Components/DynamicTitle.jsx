@@ -17,6 +17,8 @@ const DynamicTitle = () => {
         return 'Portfolio || Projects';
       case '/contact':
         return 'Portfolio || Contact us';
+      case '/details':
+        return 'Portfolio || Details Page';
       default:
         return 'Personal Portfolio';
     }

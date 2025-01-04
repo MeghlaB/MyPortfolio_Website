@@ -5,9 +5,10 @@ import project3 from '../../src/assets/Projects/3.png'
 import project4 from '../../src/assets/Projects/2.png'
 import project5 from '../../src/assets/Projects/1.png'
 import project6 from '../../src/assets/Projects/6.png'
-import { FaGithub, FaLink } from 'react-icons/fa'
+import { FaExternalLinkAlt, FaGithub, FaLink } from 'react-icons/fa'
 import { FaLinkSlash } from 'react-icons/fa6'
 import { Helmet } from 'react-helmet'
+import { Link } from 'react-router-dom'
 
 
 export default function Projects() {
@@ -30,34 +31,21 @@ export default function Projects() {
                 className="rounded-xl object-cover w-80"
               />
             </figure>
-            <div className='flex gap-3 m-5 flex-wrap'>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-               html
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-                tailwindcss
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-               react
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-                daisyUi
-              </div>
-            </div>
+            
             <div className="card-body text-center">
 
               <h2 className="card-title text-xl font-bold text-white">Bpl Dream</h2>
-              <p className="text-white/75 mb-4 text-left">
+              <p className="text-white/75  text-left">
               This website is made for a Cricket Player bidding Company , named PLAYERHUNT.....
               </p>
-              <div className="card-actions flex justify-center gap-4">
+              <div className="card-actions py-6 flex justify-center gap-4">
                 <a
                   href="https://github.com/MeghlaB/BPL-DREAM"
                   className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub /> GitHub
+                  <FaGithub />
                 </a>
                 <a
                   href="https://vengeful-lawyer.surge.sh/"
@@ -65,8 +53,13 @@ export default function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLink /> Live Link
+                <FaExternalLinkAlt />
                 </a>
+                <Link to={'/details'}>
+                  <button className='btn bg-hoverprimary hover:bg-btnprimary border-none text-white '>
+                    view Details
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -79,34 +72,21 @@ export default function Projects() {
                 className="rounded-xl object-cover w-80"
               />
             </figure>
-            <div className='flex gap-3 m-5 flex-wrap'>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-               html
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-                tailwindcss
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-               react
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-                daisyUi
-              </div>
-            </div>
+  
             <div className="card-body text-center">
 
               <h2 className="card-title text-xl font-bold text-white">Pet Adoption PlatForm</h2>
-              <p className="text-white/75 mb-4 text-left">
+              <p className="text-white/75  text-left">
               The Website is made for a pet adoption platform named by PEDDY. Each adopta....
               </p>
-              <div className="card-actions flex justify-center gap-4">
+              <div className="card-actions py-6 flex justify-center gap-4">
                 <a
-                  href="https://github.com/MeghlaB/Pet-_Adoption_Platform?tab=readme-ov-file"
-                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary  border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  href="https://github.com/MeghlaB/Pet-_Adoption_Platform"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub /> GitHub
+                  <FaGithub />
                 </a>
                 <a
                   href="https://peddyhome321.surge.sh/"
@@ -114,8 +94,13 @@ export default function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLink /> Live Link
+                  <FaExternalLinkAlt /> 
                 </a>
+                <Link to={'/details1'}>
+                  <button className='btn bg-hoverprimary hover:bg-btnprimary border-none text-white '>
+                    view Details
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -128,39 +113,36 @@ export default function Projects() {
                 className="rounded-xl object-cover w-80"
               />
             </figure>
-            <div className='flex gap-3 m-5 flex-wrap'>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-               html
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-                Js
-              </div>
-              
-            </div>
+            
             <div className="card-body text-center">
 
               <h2 className="card-title text-xl font-bold text-white">Donate Bangladesh
               </h2>
-              <p className="text-white/75 mb-4 text-left">
+              <p className="text-white/75  text-left">
               Donate Bangladesh is a web platform dedicated to bringing communities together for the common good ........
               </p>
-              <div className="card-actions flex justify-center gap-4">
+              <div className="card-actions flex py-6 justify-center gap-4">
                 <a
                   href="https://github.com/MeghlaB/Assingment-05"
                   className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub /> GitHub
+                  <FaGithub />
                 </a>
                 <a
                   href="https://meghlab.github.io/Assingment-05/"
-                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary  border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLink /> Live Link
+                  <FaExternalLinkAlt />
                 </a>
+                <Link to={'/details2'}>
+                  <button className='btn bg-hoverprimary hover:bg-btnprimary border-none text-white '>
+                    view Details
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -173,38 +155,35 @@ export default function Projects() {
                 className="rounded-xl object-cover w-80"
               />
             </figure>
-            <div className='flex gap-3 m-5'>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-               html
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-                css
-              </div>
-              
-            </div>
+            
             <div className="card-body text-center">
 
               <h2 className="card-title text-xl font-bold text-white">Gym Landing Page Project</h2>
-              <p className="text-white/75 mb-4 text-left">
+              <p className="text-white/75  text-left">
               This project my programming hero Assignment number two, in this is project ..........
               </p>
-              <div className="card-actions flex justify-center gap-4">
+              <div className="card-actions py-6 flex justify-center gap-4">
                 <a
                   href="https://github.com/MeghlaB/Assignment-02"
-                  className="text-xl btn flex items-center gap-2 thover:text-whitebg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow bg-hoverprimary border-none hover:bg-btnprimary text-white/75"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub /> GitHub
+                  <FaGithub />
                 </a>
                 <a
-                  href="-https://meghlab.github.io/Assignment-02/"
-                  className="text-xl btn flex items-center gap-2 text-white/75 bg-hoverprimary hover:bg-btnprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  href="https://meghlab.github.io/Assignment-02/"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLink /> Live Link
+                  <FaExternalLinkAlt />
                 </a>
+                <Link to={'/details3'}>
+                  <button className='btn bg-hoverprimary hover:bg-btnprimary border-none text-white '>
+                    view Details
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -217,42 +196,39 @@ export default function Projects() {
                 className="rounded-xl object-cover w-80"
               />
             </figure>
-            <div className='flex gap-3 m-5 flex-wrap'>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-               html
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-                tailwindcss
-              </div>
-             
-            </div>
+            
             <div className="card-body text-center">
 
               <h2 className="card-title text-xl font-bold text-white">Modern Barn House Design</h2>
-              <p className="text-white/75 mb-4 text-left">
+              <p className="text-white/75 py-6 text-left">
               A modern barn house blends rustic charm with contemporary design, featuring open floor plans.......
               </p>
-              <div className="card-actions flex justify-center gap-4">
+              <div className="card-actions flex py-6 justify-center gap-4">
                 <a
                   href="https://github.com/MeghlaB/Assingment-03"
-                  className="text-xl btn flex items-center gap-2 bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow hover:bg-btnprimary border-none text-white/75"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub /> GitHub
+                  <FaGithub />
                 </a>
                 <a
                   href="https://meghlab.github.io/Assingment-03/"
-                  className="text-xl btn flex items-center gap-2 bg-hoverprimary hover:bg-btnprimary text-white/75bg-hoverprimary transition-all duration-200 px-4 py-2 border-none rounded-lg shadow text-white/75"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLink /> Live Link
+                  <FaExternalLinkAlt />
                 </a>
+                <Link to={'/details4'}>
+                  <button className='btn bg-hoverprimary hover:bg-btnprimary border-none text-white '>
+                    view Details
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
-          {/* projects-5 */}
+          {/* projects-6 */}
           <div className="card border border-purple-800  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
@@ -261,43 +237,34 @@ export default function Projects() {
                 className="rounded-xl object-cover w-80"
               />
             </figure>
-            <div className='flex gap-3 m-5 flex-wrap'>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-               html
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-                tailwindcss
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-               react
-              </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
-                daisyUi
-              </div>
-            </div>
             <div className="card-body text-center">
 
               <h2 className="card-title text-xl font-bold text-white">Landing Page Design</h2>
-              <p className="text-white/75 mb-4 text-left">
+              <p className="text-white/75  text-left">
               This Portfolio landing page is not reresponsive for mobile devices and any other devices, .......
               </p>
-              <div className="card-actions flex justify-center gap-4">
+              <div className="card-actions py-6 flex justify-center gap-4">
                 <a
-                  href=""
+                  href="https://github.com/MeghlaB/Assingment_01"
                   className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub /> GitHub
+                  <FaGithub />
                 </a>
                 <a
-                  href="https://vengeful-lawyer.surge.sh/"
-                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75  bg-hoverprimary border-none  transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  href="https://meghlab.github.io/Assingment_01/"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLink /> Live Link
+                  <FaExternalLinkAlt />
                 </a>
+                <Link to={'/details5'}>
+                  <button className='btn bg-hoverprimary hover:bg-btnprimary border-none text-white '>
+                    view Details
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
