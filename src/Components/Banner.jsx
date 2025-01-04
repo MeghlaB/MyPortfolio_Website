@@ -7,7 +7,7 @@ import { FiMail } from "react-icons/fi";
 
 export default function Banner() {
     return (
-        <div className=" h-[650px] flex items-center justify-center mt-40 lg:mt-0">
+        <div className=" h-[650px] flex items-center justify-center pt-60 lg:py-10">
             <div className="container mx-auto flex flex-col lg:flex-row items-center px-6">
                 {/* Left Section */}
                 <div className="lg:w-1/2 text-center lg:text-left ">
@@ -54,7 +54,7 @@ export default function Banner() {
                     </div>
                 </div>
                 {/* Right Section */}
-                <div className="lg:w-1/2 flex justify-center mt-8 lg:mt-0">
+                <div className="lg:w-1/2 flex justify-center pt-6 lg:pt-28">
                     <img
                         src={myImage}
                         alt="Developer"
