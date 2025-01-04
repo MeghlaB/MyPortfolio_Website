@@ -11,7 +11,7 @@ export default function Footer() {
                        <img src={logo} alt="" className="w-24 h-24 rounded-lg" />
                     </h5>
                     <h5 className="text-lg font-semibold mt-2">
-                        <span className="text-hoverprimary">Contact Us:</span> meghlabiswas6432gmail.com
+                        <span className="text-hoverprimary">Contact Us:</span> meghlabiswas643gmail.com
                     </h5>
                 </div>
 
