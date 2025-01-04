@@ -18,14 +18,14 @@ export default function Skills() {
           <div className="mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
         </h2>
 
-        <div className="grid grid-cols-1 h-full lg:h-[550px] px-3 md:px-2 lg:px-0 sm:grid-cols-2 md:grid-cols-3 gap-12 mt-8">
+        <div className="grid grid-cols-1 max-h-full lg:h-[550px] px-3 md:px-2 lg:px-0 sm:grid-cols-2 md:grid-cols-3 gap-12 mt-8">
           {/* HTML */}
-          <div className="p-6 border border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden">
+          <div className="p-10 lg:p-6 border border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden">
             <div className="flex items-center mb-4 z-10 relative">
               <img src={html} alt="HTML" className="w-12 h-12 mr-4" />
               <h3 className="ml-4 text-2xl font-semibold text-hoverprimary">HTML</h3>
             </div>
-            <p className="text-gray-300 z-10 relative">
+            <p className="text-gray-300 z-10 relative text-left">
               Expert in creating semantic, well-structured web pages with SEO-friendly practices and accessibility in mind.
             </p>
             <div className="absolute inset-0 bg-gray-800 bg-opacity-80 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out flex items-end justify-end">
@@ -41,12 +41,12 @@ export default function Skills() {
           </div>
 
           {/* CSS */}
-          <div className="p-6 border border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden">
+          <div className="p-10 lg:p-6 border border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden">
             <div className="flex items-center mb-4 z-10 relative">
               <img src={css} alt="CSS3" className="w-12 h-12 mr-4" />
               <h3 className="ml-4 text-2xl font-semibold text-hoverprimary">CSS3</h3>
             </div>
-            <p className="text-gray-300 z-10 relative">
+            <p className="text-gray-300 z-10 relative text-left">
               Mastery in crafting responsive, pixel-perfect layouts using Flexbox, Grid, and modern CSS techniques.
             </p>
             <div className="absolute inset-0 bg-gray-800 bg-opacity-80 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out flex items-end justify-end">
@@ -62,12 +62,12 @@ export default function Skills() {
           </div>
 
           {/* Tailwind CSS */}
-          <div className="p-6 border border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden">
+          <div className="p-10 lg:p-6 border border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden">
             <div className="flex items-center mb-4 z-10 relative">
               <img src={tailwind} alt="Tailwind CSS" className="w-12 h-12 mr-4" />
               <h3 className="ml-4 text-2xl font-semibold text-hoverprimary">Tailwind CSS</h3>
             </div>
-            <p className="text-gray-300 z-10 relative">
+            <p className="text-gray-300 z-10 relative text-left">
               Proficient in building fast, responsive UIs with Tailwind CSS, enabling rapid development with a utility-first approach.
             </p>
             <div className="absolute inset-0 bg-gray-800 bg-opacity-80 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out flex items-end justify-end">
@@ -83,12 +83,12 @@ export default function Skills() {
           </div>
 
           {/* React.js */}
-          <div className="p-6 border border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden">
+          <div className="p-10 lg:p-6 border border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden">
             <div className="flex items-center mb-4 z-10 relative">
               <img src={react} alt="React.js" className="w-12 h-12 mr-4" />
               <h3 className="ml-4 text-2xl font-semibold text-hoverprimary">React.js</h3>
             </div>
-            <p className="text-gray-300 z-10 relative">
+            <p className="text-gray-300 z-10 relative text-left">
               Experienced in building dynamic, performant React applications with state management, hooks, and component-based architecture.
             </p>
             <div className="absolute inset-0 bg-gray-800 bg-opacity-80 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out flex items-end justify-end">
@@ -104,12 +104,12 @@ export default function Skills() {
           </div>
 
           {/* MongoDB */}
-          <div className="p-6 border border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden">
+          <div className="p-10 lg:p-6 border border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden">
             <div className="flex items-center mb-4 z-10 relative">
               <img src={mongodb} alt="MongoDB" className="w-12 h-12 mr-4" />
               <h3 className="ml-4 text-2xl font-semibold text-hoverprimary">MongoDB</h3>
             </div>
-            <p className="text-gray-300 z-10 relative">
+            <p className="text-gray-300 z-10 relative text-left">
               Solid knowledge in working with MongoDB, ensuring efficient data storage, retrieval, and management for scalable applications.
             </p>
             <div className="absolute inset-0 bg-gray-800 bg-opacity-80 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out flex items-end justify-end">
