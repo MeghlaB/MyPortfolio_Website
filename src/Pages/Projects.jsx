@@ -7,10 +7,16 @@ import project5 from '../../src/assets/Projects/1.png'
 import project6 from '../../src/assets/Projects/6.png'
 import { FaGithub, FaLink } from 'react-icons/fa'
 import { FaLinkSlash } from 'react-icons/fa6'
+import { Helmet } from 'react-helmet'
 
 export default function Projects() {
   return (
     <section id="skills" className="py-16 text-white">
+         <Helmet>
+        <title>
+          Portfolio || Projects
+        </title>
+          </Helmet>
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-hoverprimary mb-6">
           My Projects

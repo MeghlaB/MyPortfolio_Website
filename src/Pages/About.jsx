@@ -1,9 +1,11 @@
 
 import React from "react";
 import coding from '../../src/assets/coding.jpeg'
+import { Helmet } from "react-helmet";
 
 export default function AboutMe() {
     return (
+        
         <section className="py-16 ">
             <div className="container mx-auto px-6">
                 {/* Section Header */}

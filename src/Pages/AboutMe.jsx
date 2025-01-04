@@ -3,10 +3,16 @@ import coding from '../../src/assets/coding.jpeg';
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; // Import React Icons
 import { FaCode, FaPaintBrush, FaFootballBall } from "react-icons/fa"; // Additional Icons
 import { FiMail } from 'react-icons/fi';
+import { Helmet } from 'react-helmet';
 
 export default function AboutMe() {
     return (
         <section className="py-16 pb-6">
+                  <Helmet>
+        <title>
+          Portfolio || About
+        </title>
+          </Helmet>
             <div className="container mx-auto px-6 mt-4 max-w-full">
                 {/* Section Header */}
                 <h2 className="text-4xl font-bold text-center text-white mb-8">
