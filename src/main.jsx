@@ -10,10 +10,10 @@ import { HelmetProvider } from 'react-helmet-async'
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HelmetProvider>
-      <div className='mainBg'>
-        <RouterProvider router={router} />
-      </div>
+    <div className='mainBg'>
+  <RouterProvider router={router} />
+  </div>
     </HelmetProvider>
 
-  </React.StrictMode>
+</React.StrictMode>
 )

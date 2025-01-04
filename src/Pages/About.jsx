@@ -1,7 +1,7 @@
 
 import React from "react";
 import coding from '../../src/assets/coding.jpeg'
-import { Helmet } from "react-helmet";
+
 
 export default function AboutMe() {
     return (

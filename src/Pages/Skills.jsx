@@ -7,14 +7,11 @@ import tailwind from '../../src/assets/icons/tailwind.png';
 import mongodb from '../../src/assets/icons/mongodb.png';
 import { Helmet } from 'react-helmet';
 
+
 export default function Skills() {
   return (
     <section id="skills" className="py-16 text-white">
-       <Helmet>
-        <title>
-          Portfolio || Skills
-        </title>
-          </Helmet>
+     
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-hoverprimary mb-6">
           My Skills

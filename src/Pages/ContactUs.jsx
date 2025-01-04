@@ -5,6 +5,7 @@ import { FaFacebook, FaWhatsapp } from 'react-icons/fa';
 import Swal from 'sweetalert2';
 import { Helmet } from 'react-helmet';
 
+
 export default function ContactUs() {
 
     const form = useRef();
@@ -33,11 +34,7 @@ export default function ContactUs() {
 
     return (
         <section className='py-20'>
-            <Helmet>
-                <title>
-                    Portfolio || Contact Us
-                </title>
-            </Helmet>
+     
             <h2 className="text-center text-3xl pb-20 text-hoverprimary font-semibold tracking-tight">Contact Us</h2>
             <div className='container mx-auto gap-10 grid grid-cols-1 lg:grid-cols-2 pb-8 '>
                 <div className='inline grid-cols-1 space-y-4 '>

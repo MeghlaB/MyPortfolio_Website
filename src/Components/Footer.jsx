@@ -11,7 +11,7 @@ export default function Footer() {
                         <span className="text-hoverprimary">Meghla Biswas</span>
                     </h5>
                     <h5 className="text-lg font-semibold mt-2">
-                        <span className="text-hoverprimary">Contact Us:</span> +8801859075523
+                        <span className="text-hoverprimary">Contact Us:</span> meghlabiswas6432gmail.com
                     </h5>
                 </div>
 
