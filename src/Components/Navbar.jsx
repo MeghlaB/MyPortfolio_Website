@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 
 export default function Navbar() {
@@ -46,7 +46,7 @@ export default function Navbar() {
                 </div>
                 <div className="navbar-end">
                    
-                    <a className="btn bg-btnprimary hover:bg-hoverprimary text-white/75">Button</a>
+                    <Link to={'/contact'} className="btn bg-btnprimary hover:bg-hoverprimary text-white/75">Contact Us </Link>
                 </div>
             </div>
         </div>
