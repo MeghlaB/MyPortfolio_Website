@@ -79,7 +79,7 @@ export default function ContactUs() {
                     </div>
                 </div>
                 {/* contact us */}
-                <div className="w-full max-w-md border-purple-600 rounded-lg border px-10 pb-10 pt-8 shadow-md ">
+                <div className="w-full max-w-md md:mx-auto border-purple-600 rounded-lg border px-10 pb-10 pt-8 shadow-md ">
                     <div className="mb-6">
                     </div>
                     <form ref={form} onSubmit={sendEmail} className="w-full space-y-6">

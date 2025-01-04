@@ -21,7 +21,7 @@ export default function Projects() {
           <div className="mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
         </h2>
 
-        <div className="grid grid-cols-1 h-full  px-3 md:px-2 lg:px-0 sm:grid-cols-2 md:grid-cols-3 gap-12 mt-8">
+        <div className="grid grid-cols-1 h-full  px-3 md:px-2 lg:px-0 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-8">
           {/* projects-1 */}
           <div className="card border border-purple-800  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
