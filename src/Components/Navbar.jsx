@@ -6,7 +6,7 @@ export default function Navbar() {
   
      
     const navLinks = <>
-        <li><NavLink to={'/'}>Home</NavLink></li>
+        <li><NavLink  to={'/'}>Home</NavLink></li>
         <li><NavLink to={'/about'}>About</NavLink></li>
         <li><NavLink to={'/skils'}>Skils</NavLink></li>
         <li><NavLink to={'/projects'}>Projects</NavLink></li>

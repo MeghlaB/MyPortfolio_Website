@@ -10,7 +10,7 @@ import vue from '../../src/assets/icons/vue.png';
 
 export default function Edit() {
   return (
-    <div className=' mx-4 lg:mx-48 mt-48 lg:mt-14 py-6 px-4  rounded-lg shadow-lg'>
+    <div className=' mx-4 lg:mx-48 border-purple-700 border mt-48 lg:mt-14 py-6 px-4  rounded-lg shadow-lg'>
   <Marquee className='text-white gap-12 '>
     <img src={html} alt="HTML" className='h-20 w-auto object-contain mx-4' />
     <img src={css} alt="CSS" className='h-20 w-auto object-contain mx-4' />

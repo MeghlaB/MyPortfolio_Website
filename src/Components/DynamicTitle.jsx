@@ -8,15 +8,15 @@ const DynamicTitle = () => {
   const getTitle = () => {
     switch (location.pathname) {
       case '/':
-        return 'Portfolio | Home';
+        return 'Portfolio || Home';
       case '/about':
-        return 'Portfolio | About';
+        return 'Portfolio || About';
       case '/skils':
-        return 'Portfolio | Skills';
+        return 'Portfolio || Skills';
       case '/projects':
-        return 'Portfolio | Projects';
+        return 'Portfolio || Projects';
       case '/contact':
-        return 'Portfolio | Contact us';
+        return 'Portfolio || Contact us';
       default:
         return 'Personal Portfolio';
     }

@@ -19,7 +19,7 @@ export default function AboutMe() {
                     {/* Left Column: Text Content */}
                     <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
                         <p className="text-lg text-white mb-6 leading-relaxed">
-                            Hi, I'm <strong>Meghla Biswas</strong>, a passionate <strong>Frontend Developer</strong> from Bangladesh. I have always been fascinated by technology and its potential to change the world. My journey into programming began during my college years when I started learning HTML and CSS. Eventually, I found my true calling in <strong>React</strong> and have been hooked ever since.
+                            Hi, I'm <strong className="text-hoverprimary">Meghla Biswas</strong>, a passionate <strong>Frontend Developer</strong> from Bangladesh. I have always been fascinated by technology and its potential to change the world. My journey into programming began during my college years when I started learning HTML and CSS. Eventually, I found my true calling in <strong>React</strong> and have been hooked ever since.
                         </p>
 
                         <p className="text-lg text-white mb-6 leading-relaxed">

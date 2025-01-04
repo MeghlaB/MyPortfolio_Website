@@ -46,7 +46,7 @@ export default function Banner() {
                     <div className="mt-6 flex justify-center lg:justify-start">
                         <a
                             href="https://docs.google.com/document/d/11tScrDkIBmFyUXamuB1aO1wkEy-sMRYwfT-haTEEsLA/edit?tab=t.0#heading=h.31wfbk19d4xh"
-                            className="px-6 py-3 flex items-center gap-4 bg-btnprimary text-white rounded-lg shadow-md hover:bg-hoverprimary"
+                            className="px-6 py-3 flex items-center gap-4 bg-hoverprimary text-white rounded-lg shadow-md hover:bg-hoverprimary"
                         >
                             <FaDownload />
                             Download Resume

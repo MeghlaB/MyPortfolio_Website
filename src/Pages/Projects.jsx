@@ -15,14 +15,14 @@ export default function Projects() {
     <section id="skills" className="py-16 text-white">
       
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-hoverprimary mb-6">
+        <h2 className="text-4xl font-bold text-hoverprimary mt-6 mb-6">
           My Projects
           <div className="mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
         </h2>
 
         <div className="grid grid-cols-1 h-full  px-3 md:px-2 lg:px-0 sm:grid-cols-2 md:grid-cols-3 gap-12 mt-8">
           {/* projects-1 */}
-          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <div className="card border border-purple-800  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project1}
@@ -46,14 +46,14 @@ export default function Projects() {
             </div>
             <div className="card-body text-center">
 
-              <h2 className="card-title text-xl font-bold text-white">BPL DREAM</h2>
+              <h2 className="card-title text-xl font-bold text-white">Bpl Dream</h2>
               <p className="text-white/75 mb-4 text-left">
-              This website is made for a Cricket Player bidding Company , named PLAYERHUNT *All information on this website is fetched locally in JSON format. It is built using REACT and VITE, so it has no loading and VITE comes with hot reloading.
+              This website is made for a Cricket Player bidding Company , named PLAYERHUNT.....
               </p>
               <div className="card-actions flex justify-center gap-4">
                 <a
                   href="https://github.com/MeghlaB/BPL-DREAM"
-                  className="text-xl btn flex items-center gap-2 text-gray-800 hover:text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -61,7 +61,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://vengeful-lawyer.surge.sh/"
-                  className="text-xl btn flex items-center gap-2 text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -71,7 +71,7 @@ export default function Projects() {
             </div>
           </div>
           {/* projects-2 */}
-          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <div className="card border border-purple-800  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project2}
@@ -95,14 +95,14 @@ export default function Projects() {
             </div>
             <div className="card-body text-center">
 
-              <h2 className="card-title text-xl font-bold text-white">PET ADOPTION PLATFORM</h2>
+              <h2 className="card-title text-xl font-bold text-white">Pet Adoption PlatForm</h2>
               <p className="text-white/75 mb-4 text-left">
-              The Website is made for a pet adoption platform named by PEDDY. Each adoptable pet will have a detailed profile, including their breed, age, size, temperament, health status, and photos, so that potential adopters can make informed decisions.
+              The Website is made for a pet adoption platform named by PEDDY. Each adopta....
               </p>
               <div className="card-actions flex justify-center gap-4">
                 <a
                   href="https://github.com/MeghlaB/Pet-_Adoption_Platform?tab=readme-ov-file"
-                  className="text-xl btn flex items-center gap-2 text-gray-800 hover:text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary  border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -110,7 +110,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://peddyhome321.surge.sh/"
-                  className="text-xl btn flex items-center gap-2 text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -120,7 +120,7 @@ export default function Projects() {
             </div>
           </div>
           {/* projects-3 */}
-          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <div className="card border border-purple-800 shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project3}
@@ -142,12 +142,12 @@ export default function Projects() {
               <h2 className="card-title text-xl font-bold text-white">Donate Bangladesh
               </h2>
               <p className="text-white/75 mb-4 text-left">
-              Donate Bangladesh is a web platform dedicated to bringing communities together for the common good of those in need across Bangladesh. We believe that every act of kindness, no matter how small, can create a ripple effect of positive change.
+              Donate Bangladesh is a web platform dedicated to bringing communities together for the common good ........
               </p>
               <div className="card-actions flex justify-center gap-4">
                 <a
                   href="https://github.com/MeghlaB/Assingment-05"
-                  className="text-xl btn flex items-center gap-2 text-gray-800 hover:text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -155,7 +155,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://meghlab.github.io/Assingment-05/"
-                  className="text-xl btn flex items-center gap-2 text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary  border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -165,7 +165,7 @@ export default function Projects() {
             </div>
           </div>
           {/* projects-4 */}
-          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <div className="card border border-purple-800  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project6}
@@ -186,12 +186,12 @@ export default function Projects() {
 
               <h2 className="card-title text-xl font-bold text-white">Gym Landing Page Project</h2>
               <p className="text-white/75 mb-4 text-left">
-              This project my programming hero Assignment number two, in this is project i;m using HTML and CSS. this project is totally responsive for mobile, tabl...
+              This project my programming hero Assignment number two, in this is project ..........
               </p>
               <div className="card-actions flex justify-center gap-4">
                 <a
                   href="https://github.com/MeghlaB/Assignment-02"
-                  className="text-xl btn flex items-center gap-2 text-gray-800 hover:text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 thover:text-whitebg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow bg-hoverprimary border-none hover:bg-btnprimary text-white/75"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -199,7 +199,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="-https://meghlab.github.io/Assignment-02/"
-                  className="text-xl btn flex items-center gap-2 text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 text-white/75 bg-hoverprimary hover:bg-btnprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -208,8 +208,8 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          {/* projects-4 */}
-          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          {/* projects-5 */}
+          <div className="card border border-purple-800 shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project4}
@@ -230,12 +230,12 @@ export default function Projects() {
 
               <h2 className="card-title text-xl font-bold text-white">Modern Barn House Design</h2>
               <p className="text-white/75 mb-4 text-left">
-              A modern barn house blends rustic charm with contemporary design, featuring open floor plans, vaulted ceilings, natural wood and metal materials, large windows, minimalist furnishings, and sustainable, energy-efficient features.
+              A modern barn house blends rustic charm with contemporary design, featuring open floor plans.......
               </p>
               <div className="card-actions flex justify-center gap-4">
                 <a
                   href="https://github.com/MeghlaB/Assingment-03"
-                  className="text-xl btn flex items-center gap-2 text-gray-800 hover:text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow hover:bg-btnprimary border-none text-white/75"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -243,7 +243,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://meghlab.github.io/Assingment-03/"
-                  className="text-xl btn flex items-center gap-2 text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 bg-hoverprimary hover:bg-btnprimary text-white/75bg-hoverprimary transition-all duration-200 px-4 py-2 border-none rounded-lg shadow text-white/75"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -253,7 +253,7 @@ export default function Projects() {
             </div>
           </div>
           {/* projects-5 */}
-          <div className="card border  shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <div className="card border border-purple-800  shadow-xl hover:shadow-2xl transition-shadow duration-300">
             <figure className="px-10 pt-10">
               <img
                 src={project5}
@@ -278,13 +278,13 @@ export default function Projects() {
             <div className="card-body text-center">
 
               <h2 className="card-title text-xl font-bold text-white">Landing Page Design</h2>
-              <p className="text-white/75 mb-4">
-              This Portfolio landing page is not reresponsive for mobile devices and any other devices, like laptop or tablet. reresponsiveness add will very soon.
+              <p className="text-white/75 mb-4 text-left">
+              This Portfolio landing page is not reresponsive for mobile devices and any other devices, .......
               </p>
               <div className="card-actions flex justify-center gap-4">
                 <a
                   href=""
-                  className="text-xl btn flex items-center gap-2 text-gray-800 hover:text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -292,7 +292,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://vengeful-lawyer.surge.sh/"
-                  className="text-xl btn flex items-center gap-2 text-white bg-btnprimary hover:bg-hoverprimary transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75  bg-hoverprimary border-none  transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

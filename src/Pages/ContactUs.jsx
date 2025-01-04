@@ -35,11 +35,13 @@ export default function ContactUs() {
     return (
         <section className='py-20'>
      
-            <h2 className="text-center text-3xl pb-20 text-hoverprimary font-semibold tracking-tight">Contact Us</h2>
+            <h2 className="text-center text-3xl pb-20 text-hoverprimary font-semibold tracking-tight">Contact Us
+            <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
+            </h2>
             <div className='container mx-auto gap-10 grid grid-cols-1 lg:grid-cols-2 pb-8 '>
                 <div className='inline grid-cols-1 space-y-4 '>
                     {/* Gmail */}
-                    <div className="p-6 border w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
+                    <div className="p-6 hover:border-purple-700 border w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
                         <div className="flex items-center justify-center text-center mb-4 z-10 relative">
                             <h3 className="text-2xl font-semibold text-hoverprimary">
                                 <FiMail className='text-center' />
@@ -52,7 +54,7 @@ export default function ContactUs() {
                     </div>
 
                     {/* FaceBook */}
-                    <div className="p-6 border w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
+                    <div className="p-6 border hover:border-purple-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
                         <div className="flex items-center justify-center text-center mb-4 z-10 relative">
                             <h3 className="text-2xl font-semibold text-hoverprimary">
                                 <FaFacebook className='text-center' />
@@ -64,7 +66,7 @@ export default function ContactUs() {
                         <a href="https://www.facebook.com/onu.biswas.166205" className='text-hoverprimary text-center block mx-auto'>Send a Message</a>
                     </div>
                     {/* WhatsApp */}
-                    <div className="p-6 border w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
+                    <div className="p-6 border hover:border-purple-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
                         <div className="flex items-center justify-center text-center mb-4 z-10 relative">
                             <h3 className="text-2xl font-semibold text-hoverprimary">
                                 <FaWhatsapp className='text-center' />
@@ -77,7 +79,7 @@ export default function ContactUs() {
                     </div>
                 </div>
                 {/* contact us */}
-                <div className="w-full max-w-md rounded-lg border px-10 pb-10 pt-8 shadow-md ">
+                <div className="w-full max-w-md border-purple-600 rounded-lg border px-10 pb-10 pt-8 shadow-md ">
                     <div className="mb-6">
                     </div>
                     <form ref={form} onSubmit={sendEmail} className="w-full space-y-6">
