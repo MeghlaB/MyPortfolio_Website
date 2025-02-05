@@ -18,6 +18,7 @@ import Details3 from "../Pages/Details3";
 import Details4 from "../Pages/Details4";
 import Details5 from "../Pages/Details5";
 import LostDetails from "../Pages/LostDetails";
+import CowDetails from "../Pages/CowDetails";
 
   const router = createBrowserRouter([
     {
@@ -74,6 +75,10 @@ import LostDetails from "../Pages/LostDetails";
         {
           path:'/lostDetails',
           element:<LostDetails></LostDetails>
+        },
+        {
+          path:'/cowDetails',
+          element:<CowDetails></CowDetails>
         }
       ]
     },

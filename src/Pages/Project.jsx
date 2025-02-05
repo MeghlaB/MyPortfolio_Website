@@ -29,7 +29,7 @@ export default function Project() {
             </figure>
             <div className="card-body text-center">
               <h2 className="card-title text-xl font-bold text-white">
-                Project Name
+              Lost Of Items
               </h2>
               <p className="text-white/75 text-left">
               WhereIsIt is a platform designed to connect individuals who have lost personal belongings with those who have found them.........
@@ -77,7 +77,7 @@ export default function Project() {
               </p>
               <div className="card-actions py-6 flex justify-center gap-4">
                 <a
-                  href="https://github.com/your-repo"
+                  href="https://github.com/MeghlaB/CrowedCub"
                   className="text-xl btn flex items-center gap-2 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow text-white"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -85,14 +85,14 @@ export default function Project() {
                   <FaGithub />
                 </a>
                 <a
-                  href="https://live-project-link.com"
+                  href="https://assignment-10tulip.web.app/"
                   className="text-xl btn flex items-center gap-2 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow text-white"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaExternalLinkAlt />
                 </a>
-                <Link to={"/details"}>
+                <Link to={'/cowDetails'}>
                   <button className="btn bg-hoverprimary hover:bg-btnprimary border-none text-white">
                     View Details
                   </button>

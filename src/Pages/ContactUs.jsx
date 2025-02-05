@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import { FiMail } from 'react-icons/fi';
-import { FaFacebook, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebook, FaMobile, FaWhatsapp } from 'react-icons/fa';
 import Swal from 'sweetalert2';
 import { Helmet } from 'react-helmet';
 
@@ -57,16 +57,17 @@ export default function ContactUs() {
                     <div className="p-6 border hover:border-purple-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
                         <div className="flex items-center justify-center text-center mb-4 z-10 relative">
                             <h3 className="text-2xl font-semibold text-hoverprimary">
-                                <FaFacebook className='text-center' />
+                                <FaMobile className='text-center' />
                             </h3>
                         </div>
                         <p className="text-gray-300 z-10 relative text-center">
-                            FaceBook
+                            +8801859075523
                         </p>
-                        <a href="https://www.facebook.com/onu.biswas.166205" className='text-hoverprimary text-center block mx-auto'>Send a Message</a>
+                        <a href="" className='text-hoverprimary text-center block mx-auto'>Send a Message</a>
+                        
                     </div>
                     {/* WhatsApp */}
-                    <div className="p-6 border hover:border-purple-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
+                    <div className="p-6 border hover:border-purple-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-500 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
                         <div className="flex items-center justify-center text-center mb-4 z-10 relative">
                             <h3 className="text-2xl font-semibold text-hoverprimary">
                                 <FaWhatsapp className='text-center' />
@@ -85,7 +86,7 @@ export default function ContactUs() {
                     <form ref={form} onSubmit={sendEmail} className="w-full space-y-6">
                         <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-400">
                             <label className="block font-medium" htmlFor="name">
-                                Name
+                                Name**
                             </label>
                             <input
                                 className="h-10 w-full rounded border px-3 py-2 text-sm leading-tight focus:outline-none focus:ring-1 dark:border-zinc-700"
@@ -93,6 +94,7 @@ export default function ContactUs() {
                                 placeholder="Your Name"
                                 name="user_name"
                                 type="text"
+                                required
                             />
                         </div>
                         <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-400">
@@ -105,17 +107,19 @@ export default function ContactUs() {
                                 placeholder="Your Email"
                                 name="user_email"
                                 type="email"
+                                required
                             />
                         </div>
                         <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-400">
                             <label className="block font-medium" htmlFor="_message">
-                                Message
+                                Message**
                             </label>
                             <textarea
                                 className="min-h-[80px] w-full rounded border px-3 py-2 leading-tight focus:outline-none focus:ring-1 dark:border-zinc-700"
                                 id="_message"
                                 placeholder="what's in your mind"
                                 name="message"
+                                required
                             />
                         </div>
                         <button className="rounded-md bg-hoverprimary px-4 py-2 text-white transition-colors">Submit</button>
