@@ -2,9 +2,10 @@ import React from 'react';
 import Banner from '../Components/Banner';
 import About from './About';
 import Skills from './Skills';
-import Projects from './Projects';
+
 import ContactUs from './ContactUs';
 import Edit from './Edit';
+import Project from './Project';
 
 
 
@@ -15,7 +16,7 @@ export default function Home() {
       <Edit></Edit>
       <About />
       <Skills />
-      <Projects />
+      <Project />
       <ContactUs />
     </div>
   );

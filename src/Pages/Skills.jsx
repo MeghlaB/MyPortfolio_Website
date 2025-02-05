@@ -5,6 +5,7 @@ import css from '../../src/assets/icons/css.png';
 import react from '../../src/assets/icons/react.png';
 import tailwind from '../../src/assets/icons/tailwind.png';
 import mongodb from '../../src/assets/icons/mongodb.png';
+import js from '../../src/assets/icons/js.png'
 import { Helmet } from 'react-helmet';
 
 
@@ -13,7 +14,7 @@ export default function Skills() {
     <section id="skills" className="py-16 text-white">
      
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-hoverprimary mb-6">
+        <h2 className="text-4xl font-bold text-hoverprimary mt-6 mb-6">
           My Skills
           <div className="mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
         </h2>
@@ -52,6 +53,26 @@ export default function Skills() {
             <div className="absolute inset-0 bg-gray-800 bg-opacity-80 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out flex items-end justify-end">
               <a
                 href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="m-4 px-6 py-2 bg-hoverprimary text-white font-semibold rounded-lg shadow-md"
+              >
+                Read more
+              </a>
+            </div>
+          </div>
+          {/* js */}
+          <div className="p-10 lg:p-6 bg-[#1F1F38]   rounded-lg  shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden animate-gradient-border">
+            <div className="flex items-center mb-4 z-10 relative">
+              <img src={js} alt="CSS3" className="w-12 h-12 mr-4" />
+              <h3 className="ml-4 text-2xl font-semibold text-hoverprimary">JavaScript</h3>
+            </div>
+            <p className="text-gray-300 z-10 relative text-left">
+            JavaScript (JS) is a lightweight interpreted or just-in-time compiled programming language with first-class functions.
+            </p>
+            <div className="absolute inset-0 bg-gray-800 bg-opacity-80 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out flex items-end justify-end">
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="m-4 px-6 py-2 bg-hoverprimary text-white font-semibold rounded-lg shadow-md"

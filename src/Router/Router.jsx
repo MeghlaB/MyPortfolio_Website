@@ -17,6 +17,7 @@ import Details2 from "../Pages/Details2";
 import Details3 from "../Pages/Details3";
 import Details4 from "../Pages/Details4";
 import Details5 from "../Pages/Details5";
+import LostDetails from "../Pages/LostDetails";
 
   const router = createBrowserRouter([
     {
@@ -70,6 +71,10 @@ import Details5 from "../Pages/Details5";
           path:'details5',
           element:<Details5></Details5>
         },
+        {
+          path:'/lostDetails',
+          element:<LostDetails></LostDetails>
+        }
       ]
     },
   ]);

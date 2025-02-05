@@ -8,7 +8,7 @@ export default function Footer() {
                 {/* Footer Branding */}
                 <div className="text-center md:text-left">
                     <h5 className="text-2xl font-bold">
-                       <img src={logo} alt="" className="w-24 h-24 rounded-lg" />
+                        <img src={logo} alt="" className="w-24 h-24 rounded-lg" />
                     </h5>
                     <h5 className="text-lg font-semibold mt-2">
                         <span className="text-hoverprimary">Contact Us:</span> meghlabiswas643gmail.com
@@ -16,17 +16,17 @@ export default function Footer() {
                 </div>
 
                 {/* Social Media Links */}
-                 <div className="flex gap-6 mt-6 lg:mt-4 justify-center lg:justify-start">
-                                        <a href="https://mail.google.com/mail/u/3/#inbox" className="text-2xl text-white hover:text-hoverprimary">
-                                            <FiMail />
-                                        </a>
-                                        <a href="https://www.facebook.com/onu.biswas.166205" className="text-2xl text-white hover:text-hoverprimary">
-                                            <FaFacebook />
-                                        </a>
-                                        <a href="https://github.com/MeghlaB" className="text-2xl text-white hover:text-hoverprimary">
-                                            <FaGithub />
-                                        </a>
-                                    </div>
+                <div className="flex gap-6 mt-6 lg:mt-4 justify-center lg:justify-start">
+                    <a href="https://mail.google.com/mail/u/3/#inbox" className="text-2xl text-white hover:text-hoverprimary">
+                        <FiMail />
+                    </a>
+                    <a href="https://www.facebook.com/onu.biswas.166205" className="text-2xl text-white hover:text-hoverprimary">
+                        <FaFacebook />
+                    </a>
+                    <a href="https://github.com/MeghlaB" className="text-2xl text-white hover:text-hoverprimary">
+                        <FaGithub />
+                    </a>
+                </div>
             </div>
 
             {/* Footer Bottom */}

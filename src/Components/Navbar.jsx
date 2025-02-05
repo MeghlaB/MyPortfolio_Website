@@ -8,13 +8,14 @@ export default function Navbar() {
     const navLinks = <>
         <li><NavLink  to={'/'}>Home</NavLink></li>
         <li><NavLink to={'/about'}>About</NavLink></li>
-        <li><NavLink to={'/skils'}>Skils</NavLink></li>
+        <li><NavLink to={'/skils'} >Skills</NavLink></li>
         <li><NavLink to={'/projects'}>Projects</NavLink></li>
+        <li><NavLink to={'/contact'}>Contact Us</NavLink></li>
     </>
 
     return (
         <div>
-            <div className="navbar text-white fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-xl z-50 shadow-lg ">
+            <div className="navbar text-white fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-xl z-50 shadow-lg  px-2 lg:px-8">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,7 +47,17 @@ export default function Navbar() {
                 </div>
                 <div className="navbar-end">
                    
-                    <Link to={'/contact'} className="btn border-none outline-none bg-hoverprimary hover:bg-hoverprimary text-white/75">Contact Us </Link>
+               
+               <a
+                href="https://drive.google.com/file/d/1Ux8k7tijnD1x0MHhlDHy7nnLIojix9yV/view" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn border-none outline-none bg-hoverprimary hover:bg-hoverprimary text-white/75"
+            >
+                Resume
+            </a>
+              
+
                 </div>
             </div>
         </div>
