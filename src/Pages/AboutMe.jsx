@@ -55,45 +55,57 @@ export default function AboutMe() {
                     </div>
                 </div>
 
-                {/* Programming Journey Section */}
-                <div className="mt-16 max-w-xl mx-auto">
+               <div className=' flex flex-col lg:flex-row justify-center items-center gap-16 mt-16'>
+                 {/* Programming Journey Section */}
+                 <div className="mt-16 max-w-xl mx-auto border py-4 px-4 border-gray-700  hover:border-purple-700">
                     <h3 className="text-2xl font-semibold text-center text-white mb-8">My Programming Journey
-                        <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
+                        <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary">
+
+                        </div>
                     </h3>
 
-                    <p className="text-lg text-white text-center">
+                    <p className="text-lg text-left text-white ">
                         My programming journey started in college, where I learned the basics of web development with HTML and CSS. I was fascinated by how a few lines of code could transform into a visually appealing web page. As I dived deeper into the world of development, I discovered JavaScript and React, which fueled my passion for creating dynamic, interactive web applications. Since then, I’ve constantly been honing my skills to build efficient, responsive, and user-centric websites.
                     </p>
                 </div>
 
                 {/* The Type of Work You Enjoy Section */}
-                <div className="mt-16 max-w-xl mx-auto">
+                <div className="mt-16 max-w-xl mx-auto border py-4 px-4 border-gray-700 hover:border-purple-700">
                     <h3 className="text-2xl font-semibold text-center text-white mb-8">The Type of Work I Enjoy
                         <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
                     </h3>
 
-                    <p className="text-lg text-white text-center">
+                    <p className="text-lg text-white text-left">
                         I enjoy working on projects that challenge me to solve complex problems and think creatively. My focus is on building interactive, responsive, and visually engaging websites using technologies like React.js. I thrive when working on user-centered design, where the user experience is a priority, and I find joy in collaborating with designers, developers, and other team members to bring innovative ideas to life.
                     </p>
                 </div>
+               </div>
 
                 {/* Additional Interests Section */}
-                <div className="flex flex-col lg:flex-row justify-center items-center gap-16 mt-16">
-                    <div className="text-center p-8 border rounded-lg shadow-lg w-80 hover:shadow-xl transition-all duration-300">
-                        <FaCode className="text-4xl text-btnprimary" />
-                        <h4 className="text-xl mt-4 font-semibold text-white">Programming</h4>
-                        <p className="text-white mt-4">I enjoy solving complex problems, writing clean code, and bringing innovative ideas to life through technology. Coding is both a challenge and a passion.</p>
-                    </div>
-
-                    <div className="text-center p-8 border rounded-lg shadow-lg w-80 hover:shadow-xl transition-all duration-300">
-                        <FaPaintBrush className="text-4xl text-btnprimary" />
-                        <h4 className="text-xl mt-4 font-semibold text-white">Design & Creativity</h4>
-                        <p className="text-white mt-4">Exploring digital art and design allows me to express my creativity. I enjoy blending art with technology to create visually appealing experiences.</p>
-                    </div>
+               <div>
+               <h3 className="text-2xl  mt-6 font-semibold text-center text-white mb-8">My Hobbies
+                        <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary">
+                            
+                        </div>
+                    </h3>
+               <div className="flex flex-col lg:flex-row justify-center items-center gap-16 mt-16 ">
+                
+                <div className="text-center p-8 border border-gray-700  hover:border-purple-700 rounded-lg shadow-lg w-80 hover:shadow-xl transition-all duration-300">
+                    <FaCode className="text-4xl text-btnprimary" />
+                    <h4 className="text-xl mt-4 font-semibold text-white">Programming</h4>
+                    <p className="text-white mt-4">I enjoy solving complex problems, writing clean code, and bringing innovative ideas to life through technology. Coding is both a challenge and a passion.</p>
                 </div>
 
+                <div className="text-center p-8 hover:border-purple-700 border border-gray-700 rounded-lg shadow-lg w-80 hover:shadow-xl transition-all duration-300">
+                    <FaPaintBrush className="text-4xl text-btnprimary" />
+                    <h4 className="text-xl mt-4 font-semibold text-white">Design & Creativity</h4>
+                    <p className="text-white mt-4">Exploring digital art and design allows me to express my creativity. I enjoy blending art with technology to create visually appealing experiences.</p>
+                </div>
+ </div>
+               </div>
+
                 {/* Future Plans Section */}
-                <div className="mt-16  max-w-xl mx-auto">
+                <div className="mt-16  max-w-xl mx-auto border border-gray-700 hover:border-purple-700 p-4 ">
                     <h3 className="text-2xl font-semibold text-center text-white mb-8">Future Plans
                         <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
                     </h3>

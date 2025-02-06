@@ -41,7 +41,7 @@ export default function ContactUs() {
             <div className='container mx-auto gap-10 grid grid-cols-1 lg:grid-cols-2 pb-8 '>
                 <div className='inline grid-cols-1 space-y-4 '>
                     {/* Gmail */}
-                    <div className="p-6 hover:border-purple-700 border w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
+                    <div className="p-6 hover:border-purple-700 border w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden  hover:bg-inherit ">
                         <div className="flex items-center justify-center text-center mb-4 z-10 relative">
                             <h3 className="text-2xl font-semibold text-hoverprimary">
                                 <FiMail className='text-center' />
@@ -54,7 +54,7 @@ export default function ContactUs() {
                     </div>
 
                     {/* FaceBook */}
-                    <div className="p-6 border hover:border-purple-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
+                    <div className="p-6 border hover:border-purple-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden  hover:bg-inherit ">
                         <div className="flex items-center justify-center text-center mb-4 z-10 relative">
                             <h3 className="text-2xl font-semibold text-hoverprimary">
                                 <FaMobile className='text-center' />
@@ -67,7 +67,7 @@ export default function ContactUs() {
                         
                     </div>
                     {/* WhatsApp */}
-                    <div className="p-6 border hover:border-purple-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-500 relative group overflow-hidden bg-btnprimary hover:bg-inherit ">
+                    <div className="p-6 border hover:border-purple-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-500 relative group overflow-hidden hover:bg-inherit ">
                         <div className="flex items-center justify-center text-center mb-4 z-10 relative">
                             <h3 className="text-2xl font-semibold text-hoverprimary">
                                 <FaWhatsapp className='text-center' />
