@@ -5,7 +5,6 @@ import { FaCode, FaPaintBrush, FaFootballBall } from "react-icons/fa";
 import { FiMail } from 'react-icons/fi';
 import { Helmet } from 'react-helmet';
 
-
 export default function AboutMe() {
     return (
         <section className="py-16 pb-6">
@@ -21,15 +20,15 @@ export default function AboutMe() {
                     {/* Left Column: Text Content */}
                     <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0 px-4">
                         <p className="text-lg text-white mb-6 leading-relaxed">
-                            Hi, I'm <strong className='text-hoverprimary'>Meghla Biswas</strong>, a passionate <strong>Frontend Developer</strong> from Bangladesh. With a deep interest in technology, I began my programming journey during college with HTML and CSS, later discovering my love for <strong>React</strong> which has shaped my career path.
+                            Hi, I'm <strong className='text-hoverprimary'>Meghla Biswas</strong>, a passionate <strong>Frontend Developer</strong> from Bangladesh. My journey in programming began during my college years when I first encountered HTML and CSS. It was then that I realized the power of code to transform ideas into reality. Over time, my passion for web development grew, especially with the discovery of <strong>React</strong>, which became the core of my development work.
                         </p>
 
                         <p className="text-lg text-white mb-6 leading-relaxed">
-                            I specialize in creating interactive, user-friendly, and visually engaging websites that solve real-world problems. The process of transforming ideas into functional digital solutions drives my passion. I strive to deliver experiences that are not only efficient but also leave a lasting impression.
+                            I love creating dynamic, interactive, and visually appealing websites that make a difference. The process of turning abstract ideas into functional solutions excites me. I am always learning and improving to build experiences that are both user-friendly and impactful.
                         </p>
 
                         <p className="text-lg text-white mb-6 leading-relaxed">
-                            Outside of coding, I'm passionate about digital art and enjoy experimenting with creative designs. I also play football to maintain a healthy balance between work and life, which fuels my creativity.
+                            Outside of coding, I am deeply passionate about digital art and love experimenting with design. I also play football to maintain a healthy balance between work and life, which fuels my creativity and keeps me motivated.
                         </p>
 
                         {/* Social Media Icons */}
@@ -56,6 +55,28 @@ export default function AboutMe() {
                     </div>
                 </div>
 
+                {/* Programming Journey Section */}
+                <div className="mt-16 max-w-xl mx-auto">
+                    <h3 className="text-2xl font-semibold text-center text-white mb-8">My Programming Journey
+                        <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
+                    </h3>
+
+                    <p className="text-lg text-white text-center">
+                        My programming journey started in college, where I learned the basics of web development with HTML and CSS. I was fascinated by how a few lines of code could transform into a visually appealing web page. As I dived deeper into the world of development, I discovered JavaScript and React, which fueled my passion for creating dynamic, interactive web applications. Since then, I’ve constantly been honing my skills to build efficient, responsive, and user-centric websites.
+                    </p>
+                </div>
+
+                {/* The Type of Work You Enjoy Section */}
+                <div className="mt-16 max-w-xl mx-auto">
+                    <h3 className="text-2xl font-semibold text-center text-white mb-8">The Type of Work I Enjoy
+                        <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
+                    </h3>
+
+                    <p className="text-lg text-white text-center">
+                        I enjoy working on projects that challenge me to solve complex problems and think creatively. My focus is on building interactive, responsive, and visually engaging websites using technologies like React.js. I thrive when working on user-centered design, where the user experience is a priority, and I find joy in collaborating with designers, developers, and other team members to bring innovative ideas to life.
+                    </p>
+                </div>
+
                 {/* Additional Interests Section */}
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-16 mt-16">
                     <div className="text-center p-8 border rounded-lg shadow-lg w-80 hover:shadow-xl transition-all duration-300">
@@ -72,7 +93,7 @@ export default function AboutMe() {
                 </div>
 
                 {/* Future Plans Section */}
-                <div className="mt-16">
+                <div className="mt-16  max-w-xl mx-auto">
                     <h3 className="text-2xl font-semibold text-center text-white mb-8">Future Plans
                         <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
                     </h3>

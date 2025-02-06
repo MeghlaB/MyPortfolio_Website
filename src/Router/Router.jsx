@@ -19,6 +19,8 @@ import Details4 from "../Pages/Details4";
 import Details5 from "../Pages/Details5";
 import LostDetails from "../Pages/LostDetails";
 import CowDetails from "../Pages/CowDetails";
+import BloodDetails from "../Pages/BloodDetails";
+import Project from "../Pages/Project";
 
   const router = createBrowserRouter([
     {
@@ -39,8 +41,8 @@ import CowDetails from "../Pages/CowDetails";
             element:<Skills></Skills>
         },
         {
-            path:'/projects',
-            element:<Projects></Projects>
+            path:'/project',
+            element:<Project></Project>
         },
         {
             path:'/contact',
@@ -79,6 +81,10 @@ import CowDetails from "../Pages/CowDetails";
         {
           path:'/cowDetails',
           element:<CowDetails></CowDetails>
+        },
+        {
+          path:'/bloodDetails',
+          element:<BloodDetails></BloodDetails>
         }
       ]
     },
