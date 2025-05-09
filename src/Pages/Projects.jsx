@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 
 export default function Projects() {
   return (
-    <section id="skills" className="py-16 text-white">
+    <section id="skills" className="py-32 text-white">
       
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-hoverprimary mt-6 mb-6">

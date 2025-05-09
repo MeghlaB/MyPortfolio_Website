@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function Project() {
   return (
-    <section id="projects" className="py-16 text-white">
+    <section id="projects" className="py-32 text-white">
       <div className="max-w-6xl mx-auto text-center">
         {/* Corrected h2 tag */}
         <div className="text-center">

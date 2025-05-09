@@ -33,7 +33,7 @@ export default function ContactUs() {
     }
 
     return (
-        <section className='py-20'>
+        <section className='py-32'>
      
             <h2 className="text-center text-3xl pb-20 text-hoverprimary font-semibold tracking-tight">Contact Us
             <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>

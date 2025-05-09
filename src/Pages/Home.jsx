@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Banner />
-      <Edit></Edit>
+      {/* <Edit></Edit> */}
       <About />
       <Skills />
       <Project />

@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet';
 
 export default function AboutMe() {
     return (
-        <section className="py-16 pb-6">
+        <section className="py-28 pb-6">
         
             <div className="container mx-auto px-6 mt-4 max-w-full">
                 {/* Section Header */}

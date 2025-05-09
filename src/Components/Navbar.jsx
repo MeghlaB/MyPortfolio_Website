@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import logo from '../assets/icons/logo1.png'
+import logo from '../assets/logo-removebg-preview (1).png'
 
 export default function Navbar() {
   
@@ -38,7 +38,7 @@ export default function Navbar() {
                             {navLinks}
                         </ul>
                     </div>
-                    <img src={logo} alt=""  className='w-12 h-12 rounded-lg'/>
+                    <img src={logo} alt=""  className='w-[98px] h-[98px] '/>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-4">
