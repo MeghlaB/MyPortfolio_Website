@@ -13,7 +13,7 @@
   height: 32vW;
 
   border-radius: 50%;
-  padding: 5px;
+  padding: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,3 +76,42 @@ animation: border-rotate 10s linear infinite;
 
 
 
+
+
+.animated-border-box {
+  position: relative;
+  padding: 3px;
+  border-radius: 16px; 
+  display: inline-block;
+  overflow: hidden;
+}
+
+.animated-border-box::before,
+.animated-border-box::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(transparent, transparent, transparent, #06eb0a);
+  animation: rotateBorder 8s linear infinite;
+  z-index: 0;
+}
+
+.animated-border-box::after {
+  animation-delay: -4s;
+}
+
+.animated-border-inner {
+  position: relative;
+  z-index: 1;
+  border-radius: 16px;
+  background-color: #191f36; 
+}
+
+@keyframes rotateBorder {
+  100% {
+    transform: rotate(360deg);
+  }
+}

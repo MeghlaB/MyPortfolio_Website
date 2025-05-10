@@ -12,8 +12,23 @@ export default function AboutMe() {
         </h2>
 
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
+
           {/* Left Column: Text Content */}
-          <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
+          <div className="lg:w-1/3 mb-8 lg:mb-0 flex justify-center ">
+            <div className="animated-border-box w-80 h-80 mx-auto">
+              <div className="animated-border-inner w-full h-full bg-[#191f36] rounded-lg overflow-hidden">
+                <img
+                  src={coding}
+                  alt="Meghla Biswas"
+                  className="w-full h-full object-cover rounded-lg shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
+  
+
+          {/* Right Column: Picture */}
+                  <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
             <p className="text-lg text-white mb-6 leading-relaxed">
               Hi, I'm <strong className="text-green-500">Meghla Biswas</strong>,
               a passionate <strong>Frontend Developer</strong> from Bangladesh.
@@ -31,16 +46,6 @@ export default function AboutMe() {
               me, and I strive to create experiences that leave a lasting
               impression on users.
             </p>
-          </div>
-
-          {/* Right Column: Picture */}
-          <div className="lg:w-1/3 mb-8 lg:mb-0 flex justify-center ">
-          <img
-                    src={coding}
-                    alt="Meghla Biswas"
-                    className="w-80 h-80 object-cover rounded-lg shadow-xl border border-gray-200 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl "
-                  />
-            
           </div>
         </div>
       </div>
