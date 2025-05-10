@@ -15,7 +15,7 @@
   }
   
   .card-container:hover {
-    border-color: #ff6347; /* Border color changes on hover */
+    border-color: #ff6347; 
     transform: scale(1.05);
   }
   

@@ -7,19 +7,19 @@ function CowDetails() {
   return (
     <div className='p-6 md:p-28 mainBg'>
       {/* Project Details */}
-      <div className="flex flex-col bg-[#1F1F38] shadow-xl text-white/75 border-hoverprimary border rounded p-6 my-10 mx-auto max-w-full sm:max-w-4xl space-y-6">
+      <div className="flex flex-col bg-[#1F1F38] shadow-xl text-white/75 border-green-600 border rounded p-6 my-10 mx-auto max-w-full sm:max-w-4xl space-y-6">
         <div className="w-full">
           <img className="w-full rounded-lg" src={project5} alt="CrowedCub" />
         </div>
 
         {/* Tech Stack */}
         <div className="flex gap-3 m-5 flex-wrap">
-          <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">React.js</div>
-          <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">Tailwind CSS</div>
-          <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">daisyUI</div>
-          <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">Node.js</div>
-          <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">MongoDB</div>
-          <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">Express.js</div>
+          <div className="badge badge-outline hover:bg-green-600  hover:text-white">React.js</div>
+          <div className="badge badge-outline hover:bg-green-600 hover:text-white">Tailwind CSS</div>
+          <div className="badge badge-outline hover:bg-green-600 hover:text-white">daisyUI</div>
+          <div className="badge badge-outline hover:bg-green-600  hover:text-white">Node.js</div>
+          <div className="badge badge-outline hover:bg-green-600 hover:text-white">MongoDB</div>
+          <div className="badge badge-outline hover:bg-green-600 hover:text-white">Express.js</div>
         </div>
 
         {/* Project Overview */}

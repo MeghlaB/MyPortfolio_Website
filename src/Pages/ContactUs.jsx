@@ -35,52 +35,52 @@ export default function ContactUs() {
     return (
         <section className='py-32'>
      
-            <h2 className="text-center text-3xl pb-20 text-hoverprimary font-semibold tracking-tight">Contact Us
-            <div className=" mt-3 w-32 mx-auto border-t-4 border-hoverprimary"></div>
+            <h2 className="text-center text-3xl pb-20 text-green-500 font-semibold tracking-tight">Contact Us
+            <div className=" mt-3 w-32 mx-auto border-t-4 border-green-500"></div>
             </h2>
             <div className='container mx-auto gap-10 grid grid-cols-1 lg:grid-cols-2 pb-8 '>
                 <div className='inline grid-cols-1 space-y-4 '>
                     {/* Gmail */}
-                    <div className="p-6 hover:border-purple-700 border w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden  hover:bg-inherit ">
+                    <div className="p-6 hover:border-green-700 border w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden  hover:bg-inherit ">
                         <div className="flex items-center justify-center text-center mb-4 z-10 relative">
-                            <h3 className="text-2xl font-semibold text-hoverprimary">
+                            <h3 className="text-2xl font-semibold text-green-500">
                                 <FiMail className='text-center' />
                             </h3>
                         </div>
                         <p className="text-gray-300 z-10 relative text-center">
                             meghlabiswas643@gmail.com
                         </p>
-                        <a href="mailto:meghlabiswas643@gmail.com" className='text-hoverprimary text-center block mx-auto'>Send a Message</a>
+                        <a href="mailto:meghlabiswas643@gmail.com" className='text-green-500 text-center block mx-auto'>Send a Message</a>
                     </div>
 
                     {/* FaceBook */}
-                    <div className="p-6 border hover:border-purple-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden  hover:bg-inherit ">
+                    <div className="p-6 border hover:border-green-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300 relative group overflow-hidden  hover:bg-inherit ">
                         <div className="flex items-center justify-center text-center mb-4 z-10 relative">
-                            <h3 className="text-2xl font-semibold text-hoverprimary">
+                            <h3 className="text-2xl font-semibold text-green-500">
                                 <FaMobile className='text-center' />
                             </h3>
                         </div>
                         <p className="text-gray-300 z-10 relative text-center">
                             +8801859075523
                         </p>
-                        <a href="" className='text-hoverprimary text-center block mx-auto'>Send a Message</a>
+                        <a href="" className='text-green-500 text-center block mx-auto'>Send a Message</a>
                         
                     </div>
                     {/* WhatsApp */}
-                    <div className="p-6 border hover:border-purple-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-500 relative group overflow-hidden hover:bg-inherit ">
+                    <div className="p-6 border hover:border-green-700 w-72 mx-auto border-gray-700 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-500 relative group overflow-hidden hover:bg-inherit ">
                         <div className="flex items-center justify-center text-center mb-4 z-10 relative">
-                            <h3 className="text-2xl font-semibold text-hoverprimary">
+                            <h3 className="text-2xl font-semibold text-green-500">
                                 <FaWhatsapp className='text-center' />
                             </h3>
                         </div>
                         <p className="text-gray-300 z-10 relative text-center">
                             WhatsApp
                         </p>
-                        <a href="https://wa.me/8801859075523?text=Hello" className='text-hoverprimary text-center block mx-auto'>Send a Message</a>
+                        <a href="https://wa.me/8801859075523?text=Hello" className='text-green-500 text-center block mx-auto'>Send a Message</a>
                     </div>
                 </div>
                 {/* contact us */}
-                <div className="w-full max-w-md md:mx-auto border-purple-600 rounded-lg border px-10 pb-10 pt-8 shadow-md ">
+                <div className="w-full max-w-md md:mx-auto border-green-600 rounded-lg border px-10 pb-10 pt-8 shadow-md ">
                     <div className="mb-6">
                     </div>
                     <form ref={form} onSubmit={sendEmail} className="w-full space-y-6">
@@ -122,7 +122,7 @@ export default function ContactUs() {
                                 required
                             />
                         </div>
-                        <button className="rounded-md bg-hoverprimary px-4 py-2 text-white transition-colors">Submit</button>
+                        <button className="rounded-md bg-green-600 px-4 py-2 text-white transition-colors">Submit</button>
                     </form>
                 </div>
             </div>

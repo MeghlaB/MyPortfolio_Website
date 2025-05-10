@@ -12,7 +12,7 @@ import Project from './Project';
 export default function Home() {
   return (
     <div>
-      <Banner />
+      <Banner  />
       {/* <Edit></Edit> */}
       <About />
       <Skills />

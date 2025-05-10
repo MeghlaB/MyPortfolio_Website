@@ -19,9 +19,9 @@ export default function Skills() {
   return (
     <section id="skills" className="py-32 text-white">
       <div className="max-w-5xl mx-auto text-center px-4">
-        <h2 className="text-4xl font-bold mb-6 relative inline-block text-purple-800">
+        <h2 className="text-4xl font-bold mb-6 relative inline-block text-green-600">
           My Skills
-          <span className="absolute left-1/2 -bottom-2 w-28 h-1 bg-purple-800 transform -translate-x-1/2"></span>
+          
         </h2>
         <p className="text-gray-400 mb-12">
           I have learned and practiced a variety of tools and technologies for modern web development. Below are some of my core technical skills.
@@ -36,7 +36,7 @@ export default function Skills() {
               </div>
               <div className="w-full bg-gray-700 rounded-full h-3">
                 <div
-                  className="bg-purple-500 h-3 rounded-full"
+                  className="bg-green-500 h-3 rounded-full"
                   style={{ width: `${skill.percentage}%` }}
                 ></div>
               </div>

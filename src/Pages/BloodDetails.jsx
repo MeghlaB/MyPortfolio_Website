@@ -6,28 +6,28 @@ export default function BloodDetails() {
     <div>
        <div className='p-6 md:p-28 mainBg'>
             {/* projects1 */}
-            <div className="flex flex-col bg-[#1F1F38] shadow-xl text-white/75 border-hoverprimary border rounded p-6 my-10 mx-auto max-w-full sm:max-w-4xl space-y-6">
+            <div className="flex flex-col bg-[#1F1F38] shadow-xl text-white/75 border-green-500 border rounded p-6 my-10 mx-auto max-w-full sm:max-w-4xl space-y-6">
               <div className="w-full">
                 <img className="w-full rounded-lg" src={project1} alt="Campaign" />
               </div>
       
               <div className="flex gap-3 m-5 flex-wrap">
-                <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
+                <div className="badge badge-outline hover:bg-green-600 hover:text-white">
                   React.js
                 </div>
-                <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
+                <div className="badge badge-outline hover:bg-green-600  hover:text-white">
                   Tailwind CSS
                 </div>
-                <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
+                <div className="badge badge-outline hover:bg-green-600 hover:text-white">
                   daisyUI
                 </div>
-                <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
+                <div className="badge badge-outline hover:bg-green-600 hover:text-white">
                   Node.js
                 </div>
-                <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
+                <div className="badge badge-outline hover:bg-green-600 hover:text-white">
                   MongoDB
                 </div>
-                <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
+                <div className="badge badge-outline hover:bg-green-600 hover:text-white">
                   Express.js
                 </div>
               </div>
@@ -68,7 +68,7 @@ export default function BloodDetails() {
               <div className="card-actions flex justify-end gap-4">
                 <a
                   href="https://github.com/MeghlaB/Blood-Donation"
-                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2 hover:bg-green-500  text-white bg-green-500 border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -76,7 +76,7 @@ export default function BloodDetails() {
                 </a>
                 <a
                   href="https://blood-donation-6ebb1.web.app"
-                  className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                  className="text-xl btn flex items-center gap-2  hover:bg-green-500  text-white bg-green-500  b border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

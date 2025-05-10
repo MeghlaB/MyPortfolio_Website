@@ -15,7 +15,7 @@ export default function Navbar() {
 
     return (
         <div>
-            <div className="navbar bg-slate-900 text-white fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-xl z-50 shadow-lg  px-2 lg:px-8">
+            <div className="navbar bg-[#191f36] text-white fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-xl z-50   px-2 lg:px-8">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -34,7 +34,7 @@ export default function Navbar() {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-hoverprimary rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content bg-green-800 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                             {navLinks}
                         </ul>
                     </div>
@@ -52,7 +52,7 @@ export default function Navbar() {
                 href="https://drive.google.com/file/d/1Ux8k7tijnD1x0MHhlDHy7nnLIojix9yV/view" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="btn border-none outline-none bg-hoverprimary hover:bg-hoverprimary text-white/75"
+                className="btn border-none outline-none bg-green-600 hover:bg-green-500 text-white/75"
             >
                 Resume
             </a>
