@@ -6,11 +6,21 @@ export default function Navbar() {
   
      
     const navLinks = <>
-        <li><NavLink to={'/'}>Home</NavLink></li>
-        <li><NavLink to={'/about'}>About</NavLink></li>
-        <li><NavLink to={'/skils'} >Skills</NavLink></li>
-        <li><NavLink to={'/project'}>Projects</NavLink></li>
-        <li><NavLink to={'/contact'}>Contact Us</NavLink></li>
+        <li><NavLink className={({ isActive }) =>
+     isActive ? "active border-t-2 border-b-2 border-green-500 " : ""
+  }  to={'/'}>Home</NavLink></li>
+        <li><NavLink  className={({ isActive }) =>
+     isActive ? "active border-t-2 border-b-2 border-green-500 " : ""
+  }   to={'/about'}>About</NavLink></li>
+        <li><NavLink  className={({ isActive }) =>
+     isActive ? "active border-t-2 border-b-2 border-green-500 " : ""
+  }   to={'/skils'} >Skills</NavLink></li>
+        <li><NavLink  className={({ isActive }) =>
+     isActive ? "active border-t-2 border-b-2 border-green-500 " : ""
+  }  to={'/project'}>Projects</NavLink></li>
+        <li><NavLink  className={({ isActive }) =>
+     isActive ? "active border-t-2 border-b-2 border-green-500 " : ""
+  }  to={'/contact'}>Contact Us</NavLink></li>
     </>
 
     return (
