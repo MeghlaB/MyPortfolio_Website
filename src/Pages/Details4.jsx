@@ -4,16 +4,16 @@ import project4 from '../../src/assets/Projects/2.png'
 export default function Details4() {
   return (
     <div className='p-6 md:p-28 mainBg'>
-              <div className="flex flex-col bg-[#1F1F38] shadow-xl text-white/75 border-hoverprimary border rounded p-6 my-10 mx-auto max-w-full sm:max-w-4xl space-y-6">
+              <div className="flex flex-col bg-[#1F1F38] shadow-xl text-white/75 border-green-500 border rounded p-6 my-10 mx-auto max-w-full sm:max-w-4xl space-y-6">
                  <div className="w-full">
                    <img className="w-full rounded-lg" src={project4} alt="Campaign" />
                  </div>
              
                  <div className='flex gap-3 m-5 flex-wrap'>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
+              <div className="badge badge-outline hover:bg-green-600 hover:text-white">
                html
               </div>
-              <div className="badge badge-outline hover:bg-hoverprimary hover:text-white">
+              <div className="badge badge-outline hover:bg-green-600 hover:text-white">
                 tailwindcss
               </div>
              
@@ -28,7 +28,7 @@ export default function Details4() {
                  <div className="card-actions flex justify-end gap-4">
                    <a
                      href="https://meghlab.github.io/Assingment-03/"
-                     className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                     className="text-xl btn flex items-center gap-2 hover:bg-green-600 text-white/75 bg-green-600 border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                      target="_blank"
                      rel="noopener noreferrer"
                    >
@@ -36,7 +36,7 @@ export default function Details4() {
                    </a>
                    <a
                      href="https://meghlab.github.io/Assingment-03/"
-                     className="text-xl btn flex items-center gap-2 hover:bg-btnprimary text-white/75 bg-hoverprimary border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
+                     className="text-xl btn flex items-center gap-2 hover:bg-green-600  text-white/75 bg-green-600 border-none transition-all duration-200 px-4 py-2 rounded-lg shadow"
                      target="_blank"
                      rel="noopener noreferrer"
                    >
